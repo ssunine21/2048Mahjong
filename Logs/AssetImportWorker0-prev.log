@@ -1,0 +1,2190 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.867; Version 2004; 64bit' Language: 'ko' Physical Memory: 40878 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+M:\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+M:/Git/2048 Mahjong
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7371
+Successfully changed project path to: M:/Git/2048 Mahjong
+M:/Git/2048 Mahjong
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path M:/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path M:/Git/2048 Mahjong/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'M:/Unity/Editor/Data/Managed'
+Mono path[1] = 'M:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'M:/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: M:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001684 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1956 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2391.
+Total: 2.679600 ms (FindLiveObjects: 0.418600 ms CreateObjectMapping: 0.107200 ms MarkObjects: 2.077400 ms  DeleteObjects: 0.074100 ms)
+
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-Top.png
+  artifactKey: Guid(4b2a04fdbe0ef4d8da8f90eaca817cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonPointed-Top.png using Guid(4b2a04fdbe0ef4d8da8f90eaca817cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51de655c10ce24c9df324cf22a85f6a') in 0.215997 seconds
+  Import took 0.219097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-Top.png
+  artifactKey: Guid(a9716c16a44a94eed9b5c90fbf4d9bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/HexagonFlat-Top.png using Guid(a9716c16a44a94eed9b5c90fbf4d9bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45da340e0361bd4b4e209f1e686dbcb') in 0.033592 seconds
+  Import took 0.036735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png
+  artifactKey: Guid(87aaca0a643d54397ba969dab4fc8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png using Guid(87aaca0a643d54397ba969dab4fc8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f7e671d24d3630d1d821be41701433') in 0.028331 seconds
+  Import took 0.031438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png
+  artifactKey: Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png using Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb76c2632b6f749e44c32d4206146aa') in 0.028682 seconds
+  Import took 0.031845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png
+  artifactKey: Guid(4adeaf2d2b1c7417e89f026626d8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png using Guid(4adeaf2d2b1c7417e89f026626d8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01b62dc068ceaa6049af6fa152ad293') in 0.027470 seconds
+  Import took 0.030535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png
+  artifactKey: Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png using Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb76c2632b6f749e44c32d4206146aa') in 0.013259 seconds
+  Import took 0.017009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png
+  artifactKey: Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png using Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66cd6db7ddd291aa958f7956e4da15a') in 0.019721 seconds
+  Import took 0.022715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001423 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png
+  artifactKey: Guid(34587324d412940a79d530020c957dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png using Guid(34587324d412940a79d530020c957dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe255b911a1471158ef443c87a300ea') in 0.027785 seconds
+  Import took 0.031524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamond.png
+  artifactKey: Guid(0d267bc78a0864eb48358689b29ed20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/IsometricDiamond.png using Guid(0d267bc78a0864eb48358689b29ed20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57d908eb010085d278735d284a4f9db') in 0.027461 seconds
+  Import took 0.030545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 529.647456 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006439 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.009647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001004 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001030 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015680 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000654 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013502 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000646 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013026 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001215 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013444 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001299 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013030 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000662 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019123 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000661 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014670 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000654 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014353 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001537 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.005276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012864 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000739 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015826 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000678 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017195 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000661 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014716 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000658 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015016 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001265 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014156 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000653 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017435 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000706 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015727 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000672 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014544 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001251 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013551 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000718 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014120 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000639 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016897 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000713 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014270 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000638 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013752 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000629 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013015 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000758 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011990 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000664 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015830 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000623 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013121 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000799 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012753 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000705 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013425 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000701 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014592 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000701 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016284 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000712 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013210 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000654 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013694 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000634 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014414 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000654 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013269 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000648 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016722 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001024 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012587 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000656 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012712 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000663 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015518 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000661 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013074 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000675 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018955 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000635 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017688 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000641 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012649 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000636 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014312 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000677 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016811 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000741 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014009 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000891 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015347 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000631 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013915 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000624 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012830 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000817 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013104 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000675 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013337 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000637 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015485 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000699 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011704 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000720 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012898 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007008 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.010013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015258 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000657 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012791 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000634 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017103 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000791 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016146 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000673 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013251 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000636 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004796 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000797 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031839 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000723 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015938 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000639 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013997 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000637 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016394 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000691 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016863 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000678 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018503 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000646 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014138 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000650 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012634 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000853 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015305 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000652 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016209 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000903 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012970 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000734 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013265 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000628 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014571 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000870 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.005191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016149 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000642 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014599 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000640 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014969 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000655 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012714 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000689 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016467 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000659 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013972 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000709 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013799 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000642 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013787 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000644 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015803 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000658 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014758 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000679 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013718 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000768 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012938 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000658 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018203 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000803 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013939 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000662 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013965 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001033 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014693 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000826 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017475 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000646 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015001 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000962 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014172 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000677 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015211 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000650 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018714 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000643 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015485 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000646 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014677 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000717 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015996 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000692 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015851 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000643 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017351 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000719 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013912 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000722 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014028 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000677 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015350 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000661 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016987 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000704 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013843 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000659 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018599 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000708 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015019 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000745 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015725 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000731 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017264 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000673 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013707 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000850 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014531 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000663 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012625 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000635 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016503 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000785 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014588 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000654 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016153 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000716 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013702 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000640 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015333 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000690 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016620 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000668 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014625 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000635 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014229 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000738 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014540 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000927 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017918 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000838 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014381 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000667 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014353 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000664 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015092 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000783 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014310 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000680 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018739 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000743 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012990 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000631 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013648 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000647 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013443 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001090 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012201 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000677 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016315 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000635 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012865 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001272 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013171 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000775 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012573 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000673 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013927 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000674 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015994 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000708 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012721 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000666 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013938 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000638 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013697 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000681 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015878 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000675 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012999 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000635 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013338 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000805 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011848 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000793 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012424 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000723 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017020 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000749 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016741 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000673 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014040 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000635 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012459 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000641 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013689 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000682 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015029 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000659 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012956 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000882 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013582 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000672 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014772 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000640 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016935 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001085 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015016 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000747 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014533 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000677 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014394 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000643 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016366 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001053 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013809 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000653 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014078 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000687 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014309 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000854 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016642 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000686 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014077 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000662 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014677 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000714 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015373 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000667 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016889 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000694 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013623 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000635 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014002 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000804 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013194 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000703 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017368 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000644 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014852 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000679 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015559 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000651 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015466 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000953 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018454 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000651 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014822 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000727 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013980 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000679 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015314 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000647 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018085 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000654 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014316 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000650 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.004145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013041 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000829 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013456 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000762 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016767 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000825 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012749 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000657 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013654 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000633 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013514 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000642 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016185 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000740 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013087 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000689 seconds
+  ERROR: Build asset version error: assets/images/background.psd in SourceAssetDB has modification time of '2021-03-26T14:15:02.8347476Z' while content on disk has modification time of '2021-03-26T14:15:05.9509247Z'
+  Import took 0.003488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.721004 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b789cb0b860c37586371d0e361be29a') in 0.020764 seconds
+  Import took 0.023934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.670146 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fa6d8056a39c240dc609c36a54b3f9') in 0.009919 seconds
+  Import took 0.012969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.905845 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c28bad20b4c7e4e801c56ae2b3c053') in 0.013456 seconds
+  Import took 0.016495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.402707 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c7655e97890c4b80f78df8928d1994') in 0.012331 seconds
+  Import took 0.015260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.355840 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96f8fd7f447b5de851e10ca27214d08') in 0.022648 seconds
+  Import took 0.025927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.279989 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93ed283b76740f62558122445fc3aa3') in 0.008588 seconds
+  Import took 0.011678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.907308 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913723cf89f2cf9faecb02e1001e9f55') in 0.013112 seconds
+  Import took 0.016261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.732110 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2e6394f82ff3bdcf11263f95bd6ff0') in 0.010248 seconds
+  Import took 0.014825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007899 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2e6394f82ff3bdcf11263f95bd6ff0') in 0.032181 seconds
+  Import took 0.035186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.812531 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2713280bdd847a5e8b17490f052a3107') in 0.023661 seconds
+  Import took 0.026930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 852.630910 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277e07a3e489be92810230a45e9f6e1e') in 0.016178 seconds
+  Import took 0.020560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.353169 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf742d7100a0936e96979adee8f8fa90') in 0.012891 seconds
+  Import took 0.016039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.090525 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2f1add6fc7857a1ad7dbcd96854fde') in 0.016620 seconds
+  Import took 0.020926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.884546 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe78f15d35b5880eebb0bd2d930cedfc') in 0.019155 seconds
+  Import took 0.022231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.336885 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6580814252ac1cf3e84880dfade723a') in 0.015070 seconds
+  Import took 0.018004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.406300 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71df84221c4d0a010822cabed44c0ee9') in 0.017449 seconds
+  Import took 0.020364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.264489 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75ecdd0cc1ffb5a5ce644936c4c364c') in 0.020027 seconds
+  Import took 0.023244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1068.476033 seconds.
+  path: Assets/Images/tilefour.psd
+  artifactKey: Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/tilefour.psd using Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ca79e72d2f850cee3ab3b4d4abced3') in 0.021701 seconds
+  Import took 0.025255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012708 seconds.
+  path: Assets/Images/tilefour.psd
+  artifactKey: Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/tilefour.psd using Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ca79e72d2f850cee3ab3b4d4abced3') in 0.011544 seconds
+  Import took 0.014710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.033040 seconds.
+  path: Assets/Prefabs/Square.prefab
+  artifactKey: Guid(da34d5aee6706a54890501b960ffd299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Square.prefab using Guid(da34d5aee6706a54890501b960ffd299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839d13147323810df75e374a10d7e37f') in 0.043936 seconds
+  Import took 0.047038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.328683 seconds.
+  path: Assets/Prefabs/Square.prefab
+  artifactKey: Guid(da34d5aee6706a54890501b960ffd299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Square.prefab using Guid(da34d5aee6706a54890501b960ffd299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a900d171ae8d2899960e44adc79e38') in 0.010827 seconds
+  Import took 0.014585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 575.326913 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1ade904f8483502412a943970edefa') in 0.015099 seconds
+  Import took 0.019697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.648649 seconds.
+  path: Assets/Prefabs/Square.prefab
+  artifactKey: Guid(da34d5aee6706a54890501b960ffd299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Square.prefab using Guid(da34d5aee6706a54890501b960ffd299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd0f4da8c318a511ee55998a5822a4a') in 0.016146 seconds
+  Import took 0.019349 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1933 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.0 MB.
+System memory in use after: 92.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 1.978500 ms (FindLiveObjects: 0.198400 ms CreateObjectMapping: 0.082800 ms MarkObjects: 1.673500 ms  DeleteObjects: 0.022400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 942.857045 seconds.
+  path: Assets/Prefabs/four.prefab
+  artifactKey: Guid(da34d5aee6706a54890501b960ffd299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/four.prefab using Guid(da34d5aee6706a54890501b960ffd299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e6f34ee9d1307fce3906bea752678d') in 0.059613 seconds
+  Import took 0.063582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.679412 seconds.
+  path: Assets/Prefabs/four - 복사본.prefab
+  artifactKey: Guid(f9da5ee24d5aec7458a09acab4b1dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/four - 복사본.prefab using Guid(f9da5ee24d5aec7458a09acab4b1dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbab38fac9548de92a7ce22e6387ac06') in 0.014371 seconds
+  Import took 0.017414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.397743 seconds.
+  path: Assets/Prefabs/five.prefab
+  artifactKey: Guid(f9da5ee24d5aec7458a09acab4b1dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/five.prefab using Guid(f9da5ee24d5aec7458a09acab4b1dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87edce201b8a5a74ae5d6cde685c28f') in 0.012716 seconds
+  Import took 0.015820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.340573 seconds.
+  path: Assets/Prefabs/five.prefab
+  artifactKey: Guid(f9da5ee24d5aec7458a09acab4b1dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/five.prefab using Guid(f9da5ee24d5aec7458a09acab4b1dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce9da7968ce600fe471bbd0ad110053') in 0.014254 seconds
+  Import took 0.017948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.539672 seconds.
+  path: Packages/com.unity.2d.path/package.json
+  artifactKey: Guid(990785fe75c54584ab4201a3e20e1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.path/package.json using Guid(990785fe75c54584ab4201a3e20e1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7e4149187789b25daff6e122f8deef') in 0.047996 seconds
+  Import took 0.054857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.841159 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650cb7ca79c729cae3a3c68502236312') in 0.036061 seconds
+  Import took 0.039539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Images/tilefive.psd
+  artifactKey: Guid(c9f1f72d837ce9944a84b5f937a00659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/tilefive.psd using Guid(c9f1f72d837ce9944a84b5f937a00659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b25910517b1ec6918e118820fc31e64') in 0.033562 seconds
+  Import took 0.036573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Images/tilefour.psd
+  artifactKey: Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/tilefour.psd using Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22ef54664253633dd36a50ff6d0b182') in 0.016098 seconds
+  Import took 0.018914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.942668 seconds.
+  path: Assets/Images/tilefour.psd
+  artifactKey: Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/tilefour.psd using Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa484db3b8b8239456da3ea5769a0f15') in 0.018437 seconds
+  Import took 0.021488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.561572 seconds.
+  path: Assets/Images/tilefour.psd
+  artifactKey: Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/tilefour.psd using Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83366417b24a99fb55caf7d8159dc4c5') in 0.023752 seconds
+  Import took 0.026619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.017280 seconds.
+  path: Assets/Images/tilefour.psd
+  artifactKey: Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/tilefour.psd using Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689024facd2ec66254a469cfe14b64ee') in 0.012033 seconds
+  Import took 0.015129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.798634 seconds.
+  path: Assets/Images/tilefour.psd
+  artifactKey: Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/tilefour.psd using Guid(51f3457c47609fe4683555cfd29a15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a1133d5be9b8fc5c3f1ef1510d0ac8') in 0.022990 seconds
+  Import took 0.025981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.173016 seconds.
+  path: Assets/Images/tilefive.psd
+  artifactKey: Guid(c9f1f72d837ce9944a84b5f937a00659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/tilefive.psd using Guid(c9f1f72d837ce9944a84b5f937a00659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c79ab94b1774a70e5b8c3a9b94e99c4') in 0.028220 seconds
+  Import took 0.031252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 507.430449 seconds.
+  path: Assets/Prefabs/tilefour.prefab
+  artifactKey: Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tilefour.prefab using Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1084ecac661bc50e8a4124b84afc2203') in 0.014748 seconds
+  Import took 0.019401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.074868 seconds.
+  path: Assets/Prefabs/tilefour.prefab
+  artifactKey: Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tilefour.prefab using Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b4243400265ebe0817b4839378db24') in 0.011272 seconds
+  Import took 0.015570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.122680 seconds.
+  path: Assets/Prefabs/tilefour.prefab
+  artifactKey: Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tilefour.prefab using Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a184eb726c8f082eac039be72d16628') in 0.010536 seconds
+  Import took 0.014049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003710 seconds.
+  path: Assets/Prefabs/tilefour.prefab
+  artifactKey: Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tilefour.prefab using Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a184eb726c8f082eac039be72d16628') in 0.011039 seconds
+  Import took 0.013970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.693106 seconds.
+  path: Assets/Prefabs/tilefour.prefab
+  artifactKey: Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tilefour.prefab using Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617c83413121c90983b1e97c0fdf4881') in 0.010105 seconds
+  Import took 0.013284 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
