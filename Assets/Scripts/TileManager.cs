@@ -99,6 +99,10 @@ public class TileManager : MonoBehaviour {
 			temp.transform.SetParent(tileParent.transform);
 		} else {
 			temp = Instantiate(tile, tr.position, Quaternion.identity);
+			temp.name = tr.name;
+			temp.transform.SetParent(tr.parent);
+			temp.transform.SetSiblingIndex(int.Parse(temp.name));
+			tr.SetParent(null);
 		}
 
 		temp.name = name;

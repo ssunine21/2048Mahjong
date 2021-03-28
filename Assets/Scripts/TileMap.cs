@@ -24,12 +24,10 @@ public class TileMap {
 	}
 
 	public void Merge() {
-		Play();
-		first.tmPro.text = (int.Parse(first.tmPro.text) * 2).ToString();
-	}
+		first.GoToSecond(second.transform.position);
 
-	public void Play() {
-		first.target = second.transform.position;
+		second.RankUp();
 		TileManager.init.SpwanTile(first.name, first.transform);
+		Clear();
 	}
 }

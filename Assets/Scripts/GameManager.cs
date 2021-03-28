@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour {
 		SpwanObject(GameLevel.four);
 	}
 
-
 	public void GameStart(GameLevel level) {
 		SpwanObject(level);
 	}

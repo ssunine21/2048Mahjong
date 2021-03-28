@@ -5,6 +5,7 @@ using TMPro;
 
 [RequireComponent(typeof(SpriteOutline))]
 public class Tile : MonoBehaviour {
+	private readonly int UP = Animator.StringToHash("Up");
 	private readonly float MOVE_SPEED = 12f;
 
 	public GameLevel gameLevel;
@@ -22,6 +23,11 @@ public class Tile : MonoBehaviour {
 	}
 
 	private SpriteOutline spriteOutline;
+	private Animator animator;
+
+	private void Awake() {
+		animator = GetComponent<Animator>();
+	}
 
 	private void Start() {
 		int Rand = Random.Range(0, 3);
@@ -35,13 +41,16 @@ public class Tile : MonoBehaviour {
 
 	private void Move() {
 		if (isMove) {
+			if(!(this.GetComponent<BoxCollider2D>() is null)) {
+				this.GetComponent<BoxCollider2D>().enabled = false;
+			}
 			this.transform.GetChild(0).GetComponent<Canvas>().sortingOrder = 0;
 			this.transform.Translate((target - (new Vector2(transform.position.x, transform.position.y)))
 				* MOVE_SPEED * Time.deltaTime);
 
 			Vector3 targetVec3 = new Vector3(target.x, target.y);
 			if(transform.position == targetVec3) {
-				this.gameObject.SetActive(false);
+				Destroy(this.gameObject);
 			}
 		}
 	}
@@ -52,5 +61,14 @@ public class Tile : MonoBehaviour {
 
 	public void Release() {
 		spriteOutline.isOutline = false;
+	}
+
+	public void RankUp() {
+		animator.SetTrigger(UP);
+		tmPro.text = (int.Parse(tmPro.text) * 2).ToString();
+	}
+
+	public void GoToSecond(Vector2 secondPos) {
+		target = secondPos;
 	}
 }

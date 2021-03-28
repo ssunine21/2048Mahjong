@@ -44,7 +44,7 @@ public class GameSystem : MonoBehaviour {
 	}
 
 	private void IsNearby() {
-		int nearNum = (int)tileMap.first.gameLevel;
+		int levelNum = (int)tileMap.first.gameLevel;
 		int firstNum = int.Parse(tileMap.first.name);
 		int secondNum = int.Parse(tileMap.second.name);
 
@@ -53,12 +53,18 @@ public class GameSystem : MonoBehaviour {
 			return;
 		}
 
-		if ((Mathf.Abs(firstNum - secondNum) == 1
-			|| Mathf.Abs(firstNum - secondNum) == nearNum)
-			&& tileMap.first.tmPro.text.Equals(tileMap.second.tmPro.text)) {
-			tileMap.Merge();
+		if(Mathf.Abs(firstNum - secondNum) == 1) {
+			if (firstNum < secondNum
+				&& secondNum % levelNum == 0)
+				tileMap.SecondToFirst();
 		}
 
-		tileMap.SecondToFirst();
+		if ((Mathf.Abs(firstNum - secondNum) == 1
+			|| Mathf.Abs(firstNum - secondNum) == levelNum)
+			&& tileMap.first.tmPro.text.Equals(tileMap.second.tmPro.text)) {
+			tileMap.Merge();
+		} else {
+			tileMap.SecondToFirst();
+		}
 	}
 }
