@@ -14,7 +14,6 @@ public class TileManager : MonoBehaviour {
 	public GameObject tileSeven;
 	public GameObject tileEight;
 
-	private List<GameObject> tiles;
 	private GameObject tile;
 
 	private int tileCount;
@@ -24,13 +23,10 @@ public class TileManager : MonoBehaviour {
 	private void Awake() {
 		if (init == null) {
 			init = this;
-		}
-		else if (init != this) {
+		} else if (init != this) {
 			Destroy(this.gameObject);
 		}
 		DontDestroyOnLoad(this.gameObject);
-
-		tiles = new List<GameObject>();
 	}
 
 	public void SpawnTile(GameLevel level) {
@@ -81,11 +77,10 @@ public class TileManager : MonoBehaviour {
 
 	private void ClearTiles() {
 		tileCount = 0;
-		foreach(GameObject tile in tiles) {
-			Destroy(tile);
+		foreach (Transform tile in tileParent.GetComponentsInChildren<Transform>()) {
+			if (tile.name == tileParent.name) continue;
+			Destroy(tile.gameObject);
 		}
-
-		tiles.Clear();
 	}
 
 	public void StartLevel(int num) {
@@ -103,9 +98,30 @@ public class TileManager : MonoBehaviour {
 			temp.transform.SetParent(tr.parent);
 			temp.transform.SetSiblingIndex(int.Parse(temp.name));
 			tr.SetParent(null);
+
+			IsGameOver();
 		}
 
 		temp.name = name;
-		tiles.Add(temp);
+	}
+
+	public void IsGameOver() {
+		Tile[] tiles = tileParent.GetComponentsInChildren<Tile>();
+
+		for (int i = 0; i < tiles.Length - 1; ++i) {
+
+			int levelNum = (int)tiles[i].gameLevel;
+			int secondNum = int.Parse(tiles[i + 1].name);
+
+			if (secondNum % levelNum != 0
+				&& tiles[i].tmPro.text.Equals(tiles[i + 1].tmPro.text))
+				return;
+
+			if (i < levelNum * (levelNum - 1)
+				&& tiles[i].tmPro.text.Equals(tiles[i + levelNum].tmPro.text)) {
+				return;
+			}
+		}
+		Debug.Log("GameOver");
 	}
 }
