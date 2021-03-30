@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum GameLevel {
-	four = 4, five, six, seven, eight
+	three = 3, four, five, six, seven, eight
 }
 
 public class GameManager : MonoBehaviour {

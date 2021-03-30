@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: -3718020969999653077
     second: tile_4
+  - first:
+      213: -4473554079132131015
+    second: tile_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -114,6 +117,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -121,10 +136,10 @@ TextureImporter:
       name: tile_0
       rect:
         serializedVersion: 2
-        x: 59
-        y: 14
-        width: 100
-        height: 100
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,10 +157,10 @@ TextureImporter:
       name: tile_1
       rect:
         serializedVersion: 2
-        x: 175
-        y: 25
-        width: 78
-        height: 78
+        x: 135
+        y: 12
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,10 +178,10 @@ TextureImporter:
       name: tile_2
       rect:
         serializedVersion: 2
-        x: 269
-        y: 32
-        width: 64
-        height: 64
+        x: 242
+        y: 25
+        width: 78
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +199,10 @@ TextureImporter:
       name: tile_3
       rect:
         serializedVersion: 2
-        x: 349
-        y: 37
-        width: 54
-        height: 54
+        x: 327
+        y: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,7 +220,28 @@ TextureImporter:
       name: tile_4
       rect:
         serializedVersion: 2
-        x: 419
+        x: 398
+        y: 37
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27a7bf60afe66cc0800000000000000
+      internalID: -3718020969999653077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile_5
+      rect:
+        serializedVersion: 2
+        x: 459
         y: 41
         width: 46
         height: 46
@@ -216,8 +252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b27a7bf60afe66cc0800000000000000
-      internalID: -3718020969999653077
+      spriteID: 93164d5544ebae1c0800000000000000
+      internalID: -4473554079132131015
       vertices: []
       indices: 
       edges: []

@@ -8,6 +8,7 @@ public class TileManager : MonoBehaviour {
 	private static readonly string TAG = "TileManager";
 
 	public GameObject tileParent;
+	public GameObject tileThree;
 	public GameObject tileFour;
 	public GameObject tileFive;
 	public GameObject tileSix;
@@ -60,6 +61,8 @@ public class TileManager : MonoBehaviour {
 	private GameObject SetTile(GameLevel level) {
 
 		switch (level) {
+			case GameLevel.three:
+				return tileThree;
 			case GameLevel.four:
 				return tileFour;
 			case GameLevel.five:
