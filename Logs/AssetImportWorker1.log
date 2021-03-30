@@ -1,0 +1,226 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19041.867; Version 2004; 64bit' Language: 'ko' Physical Memory: 16270 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/moon/Documents/GitHub/2048Mahjong
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49896
+Successfully changed project path to: C:/Users/moon/Documents/GitHub/2048Mahjong
+C:/Users/moon/Documents/GitHub/2048Mahjong
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 62.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/moon/Documents/GitHub/2048Mahjong/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   25.21.14.1972
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003981 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.824 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.067 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1959 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2394.
+Total: 2.959000 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.163700 ms MarkObjects: 2.395100 ms  DeleteObjects: 0.096400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Images/next.png
+  artifactKey: Guid(5a3d077fa903444038e0b5db3ed56d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/next.png using Guid(5a3d077fa903444038e0b5db3ed56d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3d2315600c0ee9a7c9b2620a23d9d3') in 0.178642 seconds
+  Import took 0.184009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Prefabs/tileEight.prefab
+  artifactKey: Guid(7e1e9b7a5f90de34abe7b87f0258466f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tileEight.prefab using Guid(7e1e9b7a5f90de34abe7b87f0258466f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617278b74c77847281e332b3554c7839') in 0.199832 seconds
+  Import took 0.204800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Images/background.psd
+  artifactKey: Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/background.psd using Guid(cc0b100952f189542be60f8312591df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7352a83be184bd7435d95a2513bc11') in 0.026955 seconds
+  Import took 0.035957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Prefabs/tilefour.prefab
+  artifactKey: Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tilefour.prefab using Guid(ed5bac92b61a43f43a93b964d1f47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0aae7ecb4de04a1832f78bb1c0053f5') in 0.078888 seconds
+  Import took 0.085121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Prefabs/tileSeven.prefab
+  artifactKey: Guid(557302615df91214e940944a0b128a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tileSeven.prefab using Guid(557302615df91214e940944a0b128a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d29ddaa28f9d86f3818c9df905f6cbe') in 0.050361 seconds
+  Import took 0.055128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefabs/tileSix.prefab
+  artifactKey: Guid(d634682836881604bab5f91bfa145465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tileSix.prefab using Guid(d634682836881604bab5f91bfa145465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3c5676469ca7148b586fcff80d25c8') in 0.065535 seconds
+  Import took 0.072379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Images/tile.psd
+  artifactKey: Guid(594a3960e6f78524985167562bebcd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/tile.psd using Guid(594a3960e6f78524985167562bebcd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4964b5fb8687670c5eea13766bcfc31c') in 0.040112 seconds
+  Import took 0.044543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Materials/SpriteOutline.mat
+  artifactKey: Guid(10bd1c58c4a58ea4d90960c5351a35de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SpriteOutline.mat using Guid(10bd1c58c4a58ea4d90960c5351a35de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48151203fc60c8488424c4a8a8c2b05') in 0.044956 seconds
+  Import took 0.048992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prefabs/tileThree.prefab
+  artifactKey: Guid(9b64dd04038604da7830e90230084619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tileThree.prefab using Guid(9b64dd04038604da7830e90230084619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244ef5a7299c5bb8bd8b206613e7e4e7') in 0.075518 seconds
+  Import took 0.082670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Prefabs/tilefive.prefab
+  artifactKey: Guid(35695b7bdaa1c3440bd11dd5eea95e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tilefive.prefab using Guid(35695b7bdaa1c3440bd11dd5eea95e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707d8cf645f471cf286589c1391d92b4') in 0.051410 seconds
+  Import took 0.056094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 661.158208 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f8f375c6345cd254793c1db5d692d672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f8f375c6345cd254793c1db5d692d672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b168af3c0d1eff97f6ab3ca23a2124') in 0.012704 seconds
+  Import took 0.017503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.193241 seconds.
+  path: Assets/Scripts/MenuSelect.cs
+  artifactKey: Guid(1513ff2f9abec8a46900f9cb69d942ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuSelect.cs using Guid(1513ff2f9abec8a46900f9cb69d942ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feca5c1d4d6e657fe553892e1021b9cd') in 0.027508 seconds
+  Import took 0.037412 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1936 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.5 MB.
+System memory in use after: 92.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2452.
+Total: 3.735400 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.102700 ms MarkObjects: 3.358600 ms  DeleteObjects: 0.067000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.703486 seconds.
+  path: Assets/Animation/MenuSelectAnimator.controller
+  artifactKey: Guid(7fbf6e1b2b21a7a42965ab3d1c136a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MenuSelectAnimator.controller using Guid(7fbf6e1b2b21a7a42965ab3d1c136a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f33b7a9e88693827bdb91f85dc91f07') in 0.044767 seconds
+  Import took 0.050566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.338844 seconds.
+  path: Assets/Animation/Select.anim
+  artifactKey: Guid(09507ba259b88034ab411748afdb4f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Select.anim using Guid(09507ba259b88034ab411748afdb4f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64791e8d677ceda37012e18da23ce096') in 0.022554 seconds
+  Import took 0.028748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.283684 seconds.
+  path: Assets/Animation/TileAnimator.controller
+  artifactKey: Guid(70c34992b5fc1f34d9fad378d0dccd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/TileAnimator.controller using Guid(70c34992b5fc1f34d9fad378d0dccd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9b98f0ef0c87353a3297669d9bdc64') in 0.014702 seconds
+  Import took 0.020710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001056 seconds.
+  path: Assets/Animation/TileAnimator.controller
+  artifactKey: Guid(70c34992b5fc1f34d9fad378d0dccd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/TileAnimator.controller using Guid(70c34992b5fc1f34d9fad378d0dccd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9b98f0ef0c87353a3297669d9bdc64') in 0.008633 seconds
+  Import took 0.013803 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
