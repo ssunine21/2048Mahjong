@@ -8,6 +8,11 @@ public enum GameLevel {
 
 public class GameManager : MonoBehaviour {
 
+	public GameObject homeUI;
+	public GameObject gameUI;
+
+	private MenuSelect menuSelect;
+
 	public static GameManager init;
 	private void Awake() {
 		if (init == null) {
@@ -17,17 +22,21 @@ public class GameManager : MonoBehaviour {
 			Destroy(this.gameObject);
 		}
 		DontDestroyOnLoad(this.gameObject);
+
+		menuSelect = FindObjectOfType<MenuSelect>();
 	}
 
 	private void Start() {
-		SpwanObject(GameLevel.four);
 	}
 
-	public void GameStart(GameLevel level) {
-		SpwanObject(level);
+	public void GameStart() {
+		homeUI.SetActive(false);
+		gameUI.SetActive(true);
+		TileManager.init.SpawnTile((GameLevel)(menuSelect.currSelectedNum + 3));
 	}
 
-	private void SpwanObject(GameLevel level) {
-		TileManager.init.SpawnTile(level);
+	public void GoHome() {
+		homeUI.SetActive(true);
+		gameUI.SetActive(false);
 	}
 }

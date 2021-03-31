@@ -102,13 +102,17 @@ public class TileManager : MonoBehaviour {
 			temp.transform.SetSiblingIndex(int.Parse(temp.name));
 			tr.SetParent(null);
 
-			IsGameOver();
+			StartCoroutine(nameof(IsGameOver));
 		}
 
 		temp.name = name;
 	}
 
-	public void IsGameOver() {
+	private IEnumerator IsGameOver() {
+		yield return null;
+
+		bool isGameOver = true;
+
 		Tile[] tiles = tileParent.GetComponentsInChildren<Tile>();
 
 		for (int i = 0; i < tiles.Length - 1; ++i) {
@@ -117,14 +121,18 @@ public class TileManager : MonoBehaviour {
 			int secondNum = int.Parse(tiles[i + 1].name);
 
 			if (secondNum % levelNum != 0
-				&& tiles[i].tmPro.text.Equals(tiles[i + 1].tmPro.text))
-				return;
+				&& tiles[i].tmPro.text.Equals(tiles[i + 1].tmPro.text)) {
+				isGameOver = false;
+				break;
+			}
 
 			if (i < levelNum * (levelNum - 1)
 				&& tiles[i].tmPro.text.Equals(tiles[i + levelNum].tmPro.text)) {
-				return;
+				isGameOver = false;
+				break;
 			}
 		}
-		Debug.Log("GameOver");
+		if (isGameOver)
+			Debug.Log("GameOver");
 	}
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -30,17 +31,21 @@ public class GameSystem : MonoBehaviour {
 		Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		RaycastHit2D hit = Physics2D.Raycast(pos, Vector2.zero, 0f);
 
-		if (!(hit.collider is null)) {
-			if(tileMap.first is null) {
-				tileMap.first = hit.transform.GetComponent<Tile>();
-				tileMap.first.Selection();
-			} else {
-				tileMap.second = hit.transform.GetComponent<Tile>();
-				IsNearby();
-			}
+		try {
+			if (!(hit.collider is null)) {
+				if (tileMap.first is null) {
+					tileMap.first = hit.transform.GetComponent<Tile>();
+					tileMap.first.Selection();
+				} else {
+					tileMap.second = hit.transform.GetComponent<Tile>();
+					IsNearby();
+				}
 
-			Debug.Log(hit.collider.name);
-		}
+				Debug.Log(hit.collider.name);
+			}
+		} catch (NullReferenceException e) {
+			Debug.Log(e.StackTrace);
+        }
 	}
 
 	private void IsNearby() {
