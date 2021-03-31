@@ -72,4 +72,8 @@ public class GameSystem : MonoBehaviour {
 			tileMap.SecondToFirst();
 		}
 	}
+
+	public void ClearTileMap() {
+		tileMap.Clear();
+	}
 }

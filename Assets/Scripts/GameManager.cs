@@ -26,9 +26,6 @@ public class GameManager : MonoBehaviour {
 		menuSelect = FindObjectOfType<MenuSelect>();
 	}
 
-	private void Start() {
-	}
-
 	public void GameStart() {
 		homeUI.SetActive(false);
 		gameUI.SetActive(true);
@@ -38,5 +35,9 @@ public class GameManager : MonoBehaviour {
 	public void GoHome() {
 		homeUI.SetActive(true);
 		gameUI.SetActive(false);
+	}
+
+	public void ReStart() {
+		TileManager.init.SpawnTile((GameLevel)(menuSelect.currSelectedNum + 3));
 	}
 }

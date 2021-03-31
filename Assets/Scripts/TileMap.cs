@@ -5,6 +5,7 @@ public class TileMap {
 	public Tile first;
 	public Tile second;
 
+
 	public void SecondToFirst() {
 		first.Release();
 		first = second;

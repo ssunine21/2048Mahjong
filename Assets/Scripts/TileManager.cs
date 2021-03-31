@@ -39,6 +39,7 @@ public class TileManager : MonoBehaviour {
 			return;
 		}
 
+		GameSystem.init.ClearTileMap();
 		ClearTiles();
 
 		GridLayoutGroup gridLayout;

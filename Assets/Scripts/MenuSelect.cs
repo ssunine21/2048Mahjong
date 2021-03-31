@@ -9,8 +9,7 @@ public class MenuSelect : MonoBehaviour {
     public Button prevBtn;
     public Button nextBtn;
 
-    private Animator animator;
-    public TileMenu[] tileMenus;
+    private TileMenu[] tileMenus;
 
     private int _currSelectedNum;
     public int currSelectedNum {
@@ -31,7 +30,6 @@ public class MenuSelect : MonoBehaviour {
     }
 
     private void Awake() {
-        animator = GetComponent<Animator>();
         tileMenus = GetComponentsInChildren<TileMenu>();
     }
 
@@ -42,7 +40,11 @@ public class MenuSelect : MonoBehaviour {
         InitMenu();
     }
 
-    private void PrevMenu() {
+	private void OnEnable() {
+        InitMenu();
+	}
+
+	private void PrevMenu() {
         MenuFadeChange(--currSelectedNum);
     }
 
@@ -51,6 +53,7 @@ public class MenuSelect : MonoBehaviour {
     }
 
     private void InitMenu() {
+        currSelectedNum = currSelectedNum;
         MenuFadeChange(currSelectedNum);
     }
 
@@ -65,11 +68,10 @@ public class MenuSelect : MonoBehaviour {
     }
 
     private void MenuFadeChange(int currNum) {
-        for(int i = 0; i < tileMenus.Length; ++i) {
-            if (i == currNum)
-                tileMenus[i].IsFadeIn(true);
-            else
-                tileMenus[i].IsFadeIn(false);
-        }
+        foreach(TileMenu tile in tileMenus) {
+            tile.IsFadeIn(false);
+		}
+
+        tileMenus[currNum].IsFadeIn(true);
     }
 }
