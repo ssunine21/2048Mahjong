@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour {
 	public void GameStart() {
 		homeUI.SetActive(false);
 		gameUI.SetActive(true);
-		TileManager.init.SpawnTile((GameLevel)(menuSelect.currSelectedNum + 3));
+		TileManager.init.SpawnTileGround((GameLevel)(menuSelect.currSelectedNum + 3));
 	}
 
 	public void GoHome() {
@@ -38,6 +38,6 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void ReStart() {
-		TileManager.init.SpawnTile((GameLevel)(menuSelect.currSelectedNum + 3));
+		TileManager.init.SpawnTileGround((GameLevel)(menuSelect.currSelectedNum + 3));
 	}
 }

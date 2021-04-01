@@ -1,6 +1,5 @@
 using UnityEngine;
 
-
 [ExecuteInEditMode]
 public class SpriteOutline : MonoBehaviour {
     public Color color = Color.white;
@@ -14,7 +13,7 @@ public class SpriteOutline : MonoBehaviour {
         set { _isOutline = value; }
 	}
 
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
 
     void OnEnable() {
         spriteRenderer = GetComponent<SpriteRenderer>();

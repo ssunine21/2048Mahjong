@@ -66,7 +66,7 @@ public class GameSystem : MonoBehaviour {
 
 		if ((Mathf.Abs(firstNum - secondNum) == 1
 			|| Mathf.Abs(firstNum - secondNum) == levelNum)
-			&& tileMap.first.tmPro.text.Equals(tileMap.second.tmPro.text)) {
+			&& tileMap.first.tileNumberText.text.Equals(tileMap.second.tileNumberText.text)) {
 			tileMap.Merge();
 		} else {
 			tileMap.SecondToFirst();
