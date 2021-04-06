@@ -2,11 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 
 public class TileManager : MonoBehaviour {
 	private static readonly string TAG = "TileManager";
 	public static TileManager init;
+
+	public TextMeshProUGUI currScoreTMPro;
+	public TextMeshProUGUI bestScoreTMPro;
 
 	public GameObject tileParent;
 	public GameObject tileThree;
@@ -28,6 +32,8 @@ public class TileManager : MonoBehaviour {
 
 	private GameObject tile;
 	private ArrayList tileSprites;
+	private ScoreData tileData;
+	private GameLevel gameLevel;
 
 	private int tileCount;
 
@@ -55,6 +61,7 @@ public class TileManager : MonoBehaviour {
 		DontDestroyOnLoad(this.gameObject);
 
 		AddTileSprites();
+		tileData = new ScoreData();
 	}
 
 	private void AddTileSprites() {
@@ -72,9 +79,9 @@ public class TileManager : MonoBehaviour {
     }
 
     public void SpawnTileGround(GameLevel level) {
-		int levelNum = (int)level;
+		gameLevel = level;
 		try {
-			tile = SetTile(level);
+			tile = SetTile();
 		} catch (NullReferenceException e) {
 			Debug.LogError(e.Message);
 			return;
@@ -83,8 +90,14 @@ public class TileManager : MonoBehaviour {
 		GameSystem.init.ClearTileMap();
 		ClearTiles();
 
-		for (int i = 0; i < levelNum * levelNum; ++i) {
-			SpwanTile(tileCount++.ToString());
+		if (tileData.tileData.Count > 0) {
+			for (int i = 0; i < (int)gameLevel * (int)gameLevel; ++i) {
+				SpwanTile(tileCount++.ToString(), null, (int)tileData.tileData[i]);
+			}
+		} else {
+			for (int i = 0; i < (int)gameLevel * (int)gameLevel; ++i) {
+				SpwanTile(tileCount++.ToString());
+			}
 		}
 
 		GridLayoutGroup gridLayout;
@@ -95,24 +108,30 @@ public class TileManager : MonoBehaviour {
 
 		float tileWidth = tile.GetComponent<Tile>().width;
 
-		gridLayout.constraintCount = levelNum;
+		gridLayout.constraintCount = (int)gameLevel;
 		gridLayout.cellSize = new Vector2(tileWidth, tileWidth);
 	}
 
-	private GameObject SetTile(GameLevel level) {
+	private GameObject SetTile() {
 
-		switch (level) {
+		switch (gameLevel) {
 			case GameLevel.three:
+				tileData = DataManager.init.gameData.threeTileData;
 				return tileThree;
 			case GameLevel.four:
+				tileData = DataManager.init.gameData.fourTileData;
 				return tileFour;
 			case GameLevel.five:
+				tileData = DataManager.init.gameData.fiveTileData;
 				return tileFive;
 			case GameLevel.six:
+				tileData = DataManager.init.gameData.sixTileData;
 				return tileSix;
 			case GameLevel.seven:
+				tileData = DataManager.init.gameData.sevenTileData;
 				return tileSeven;
 			case GameLevel.eight:
+				tileData = DataManager.init.gameData.eightTileData;
 				return tileEight;
 			default:
 				throw new NullReferenceException($"{TAG} :: SetTile() error");
@@ -131,7 +150,7 @@ public class TileManager : MonoBehaviour {
 		SpawnTileGround((GameLevel)num);
 	}
 
-	public void SpwanTile(string name, Transform tr = null) {
+	public void SpwanTile(string name, Transform tr = null, int tileText = 0) {
 		GameObject temp;
 		if (tr is null) {
 			temp = Instantiate(tile);
@@ -147,6 +166,13 @@ public class TileManager : MonoBehaviour {
 		}
 
 		temp.name = name;
+
+		if(tileText == 0) {
+			tileText = UnityEngine.Random.Range(0, 3) == 2 ? 4 : 2;
+        }
+
+		temp.GetComponent<Tile>().tileNumberText.text = tileText.ToString();
+		temp.GetComponent<Tile>().ChangeTileImage(tileText);
 	}
 
 	private IEnumerator IsGameOver() {
@@ -185,5 +211,35 @@ public class TileManager : MonoBehaviour {
 	public Sprite[] GetTileThema() {
 		Sprite[] temp = (Sprite[])tileSprites[themaIndex];
 		return temp;
+    }
+
+	public void SetTileData() {
+		tileData.tileData.Clear();
+		foreach(Tile tile in tileParent.GetComponentsInChildren<Tile>()) {
+			tileData.tileData.Add(int.Parse(tile.tileNumberText.text));
+        }
+
+        switch (gameLevel) {
+			case GameLevel.three:
+				DataManager.init.gameData.threeTileData = tileData;
+				break;
+			case GameLevel.four:
+				DataManager.init.gameData.fourTileData = tileData;
+				break;
+			case GameLevel.five:
+				DataManager.init.gameData.fiveTileData = tileData;
+				break;
+			case GameLevel.six:
+				DataManager.init.gameData.sixTileData = tileData;
+				break;
+			case GameLevel.seven:
+				DataManager.init.gameData.sevenTileData = tileData;
+				break;
+			case GameLevel.eight:
+				DataManager.init.gameData.eightTileData = tileData;
+				break;
+			default:
+				throw new NullReferenceException($"{TAG} :: SetTile() error");
+		}
     }
 }

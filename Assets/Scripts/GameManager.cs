@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void GoHome() {
+		TileManager.init.SetTileData();
 		homeUI.SetActive(true);
 		gameUI.SetActive(false);
 	}

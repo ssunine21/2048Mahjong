@@ -34,11 +34,7 @@ public class Tile : MonoBehaviour {
 	}
 
 	private void Start() {
-		int Rand = Random.Range(0, 3) == 2 ? 4 : 2;
-		tileNumberText.text = Rand.ToString();
 		spriteOutline = this.GetComponent<SpriteOutline>();
-
-		ChangeTileImage(Rand);
 	}
 
 	private void FixedUpdate() {
@@ -77,7 +73,7 @@ public class Tile : MonoBehaviour {
 		ChangeTileImage(nextNumber);
 	}
 
-	private void ChangeTileImage(int nextNumber) {
+	public void ChangeTileImage(int nextNumber) {
 		int numOfPower = 0;
         while (true) {
 			nextNumber >>= 1;
