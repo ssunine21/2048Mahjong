@@ -35,6 +35,22 @@ public class TileManager : MonoBehaviour {
 	private ScoreData tileData;
 	private GameLevel gameLevel;
 
+	public int currScore {
+		get { return tileData.currScore; }
+		set {
+			tileData.currScore = value;
+			currScoreTMPro.text = value.ToString();
+		}
+	}
+
+	public int bestScore {
+		get { return tileData.bestScore; }
+		set {
+			tileData.bestScore = value;
+			bestScoreTMPro.text = value.ToString();
+		}
+	}
+
 	private int tileCount;
 
 	private int _themaIndex;
@@ -117,6 +133,8 @@ public class TileManager : MonoBehaviour {
 		switch (gameLevel) {
 			case GameLevel.three:
 				tileData = DataManager.init.gameData.threeTileData;
+				currScore = tileData.currScore;
+				bestScore = tileData.bestScore;
 				return tileThree;
 			case GameLevel.four:
 				tileData = DataManager.init.gameData.fourTileData;

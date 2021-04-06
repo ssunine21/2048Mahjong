@@ -100,7 +100,7 @@ MonoBehaviour:
   m_fontSizeMax: 10
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
-  outlineSize: 5
+  outlineSize: 0
   spriteRenderer: {fileID: 2030593817187819762}
 --- !u!114 &5776202076546633433
 MonoBehaviour:

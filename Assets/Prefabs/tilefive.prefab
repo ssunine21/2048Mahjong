@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 5501269674819569904}
   - component: {fileID: -8762534397353643769}
   m_Layer: 0
-  m_Name: tileFive
+  m_Name: tilefive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_fontSizeMax: 10
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0

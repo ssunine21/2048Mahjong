@@ -67,6 +67,9 @@ public class GameSystem : MonoBehaviour {
 		if ((Mathf.Abs(firstNum - secondNum) == 1
 			|| Mathf.Abs(firstNum - secondNum) == levelNum)
 			&& tileMap.first.tileNumberText.text.Equals(tileMap.second.tileNumberText.text)) {
+			TileManager.init.currScore += int.Parse(tileMap.second.tileNumberText.text);
+			if (TileManager.init.currScore > TileManager.init.bestScore)
+				TileManager.init.bestScore = TileManager.init.currScore;
 			TileManager.init.SetTileData();
 			tileMap.Merge();
 		} else {
