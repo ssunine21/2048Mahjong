@@ -10,7 +10,6 @@ public class TileManager : MonoBehaviour {
 	public static TileManager init;
 
 	public Animator gameOverPanel;
-	public Animator gameOverText;
 	public TextMeshProUGUI currScoreTMPro;
 	public TextMeshProUGUI bestScoreTMPro;
 
@@ -98,10 +97,15 @@ public class TileManager : MonoBehaviour {
 	}
 
 	public void ReStart() {
+		gameOverPanel.Play("FadeOutPanel");
+		initTile();
+    }
+
+	private void initTile() {
 		currScore = 0;
 		tileData.tileData.Clear();
 		SpawnTileGround(gameLevel);
-    }
+	}
 
     public void SpawnTileGround(GameLevel level) {
 		gameLevel = level;
@@ -113,7 +117,7 @@ public class TileManager : MonoBehaviour {
 		}
 
 		GameSystem.init.ClearTileMap();
-		ClearTiles();
+		ClearTileParent();
 
 		if (tileData.tileData.Count > 0) {
 			for (int i = 0; i < (int)gameLevel * (int)gameLevel; ++i) {
@@ -175,7 +179,7 @@ public class TileManager : MonoBehaviour {
 		return tileTemp;
 	}
 
-	private void ClearTiles() {
+	private void ClearTileParent() {
 		tileCount = 0;
 		foreach (Transform tile in tileParent.GetComponentsInChildren<Transform>()) {
 			if (tile.name == tileParent.name) continue;
@@ -234,7 +238,7 @@ public class TileManager : MonoBehaviour {
 		}
 		if (isGameOver) {
 			gameOverPanel.Play("FadeInPanel");
-			gameOverText.SetBool("FadeIn", true);
+			GameManager.init.isGameOver = true;
 			Debug.Log("GameOver");
 		}
 	}
@@ -298,7 +302,18 @@ public class TileManager : MonoBehaviour {
 	}
 
 	public void GoHome() {
-		SetTileData();
+		if (GameManager.init.isGameOver) {
+			initTile();
+			GameOverPanelOff();
+		}
+		else {
+			SetTileData();
+		}
 		backScore = 0;
+	}
+
+	private void GameOverPanelOff() {
+		gameOverPanel.gameObject.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+		gameOverPanel.gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = new Color(1, 1, 1, 0);
 	}
 }

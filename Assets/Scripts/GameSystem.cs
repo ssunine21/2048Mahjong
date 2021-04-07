@@ -7,8 +7,6 @@ public class GameSystem : MonoBehaviour {
 
 	public static GameSystem init;
 
-	public bool isGameOver;
-
 	private TileMap tileMap;
 
 	private void Awake() {
@@ -33,7 +31,7 @@ public class GameSystem : MonoBehaviour {
 		Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		RaycastHit2D hit = Physics2D.Raycast(pos, Vector2.zero, 0f);
 
-		if (!isGameOver) {
+		if (!GameManager.init.isGameOver) {
 			try {
 				if (!(hit.collider is null)) {
 					if (tileMap.first is null) {

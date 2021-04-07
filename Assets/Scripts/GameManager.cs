@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject homeUI;
 	public GameObject gameUI;
+	public bool isGameOver;
 
 	private MenuSelect menuSelect;
 
@@ -36,13 +37,16 @@ public class GameManager : MonoBehaviour {
 		TileManager.init.GoHome();
 		homeUI.SetActive(true);
 		gameUI.SetActive(false);
+		isGameOver = false;
 	}
 
 	public void GoBack() {
-		TileManager.init.GoBack();
+		if (!isGameOver)
+			TileManager.init.GoBack();
 	}
 
 	public void ReStart() {
 		TileManager.init.ReStart();
+		isGameOver = false;
 	}
 }
