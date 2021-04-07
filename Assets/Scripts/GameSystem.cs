@@ -7,6 +7,8 @@ public class GameSystem : MonoBehaviour {
 
 	public static GameSystem init;
 
+	public bool isGameOver;
+
 	private TileMap tileMap;
 
 	private void Awake() {
@@ -31,21 +33,23 @@ public class GameSystem : MonoBehaviour {
 		Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		RaycastHit2D hit = Physics2D.Raycast(pos, Vector2.zero, 0f);
 
-		try {
-			if (!(hit.collider is null)) {
-				if (tileMap.first is null) {
-					tileMap.first = hit.transform.GetComponent<Tile>();
-					tileMap.first.Selection();
-				} else {
-					tileMap.second = hit.transform.GetComponent<Tile>();
-					IsNearby();
-				}
+		if (!isGameOver) {
+			try {
+				if (!(hit.collider is null)) {
+					if (tileMap.first is null) {
+						tileMap.first = hit.transform.GetComponent<Tile>();
+						tileMap.first.Selection();
+					} else {
+						tileMap.second = hit.transform.GetComponent<Tile>();
+						IsNearby();
+					}
 
-				Debug.Log(hit.collider.name);
+					Debug.Log(hit.collider.name);
+				}
+			} catch (NullReferenceException e) {
+				Debug.Log(e.StackTrace);
 			}
-		} catch (NullReferenceException e) {
-			Debug.Log(e.StackTrace);
-        }
+		}
 	}
 
 	private void IsNearby() {
@@ -59,17 +63,14 @@ public class GameSystem : MonoBehaviour {
 		}
 
 		if(Mathf.Abs(firstNum - secondNum) == 1) {
-			if (firstNum < secondNum
-				&& secondNum % levelNum == 0)
+			int largeNum = firstNum > secondNum ? firstNum : secondNum;
+			if (largeNum % levelNum == 0)
 				tileMap.SecondToFirst();
 		}
 
-		if ((Mathf.Abs(firstNum - secondNum) == 1
-			|| Mathf.Abs(firstNum - secondNum) == levelNum)
+		if ((Mathf.Abs(firstNum - secondNum) == 1 || Mathf.Abs(firstNum - secondNum) == levelNum)
 			&& tileMap.first.tileNumberText.text.Equals(tileMap.second.tileNumberText.text)) {
-			TileManager.init.currScore += int.Parse(tileMap.second.tileNumberText.text);
-			if (TileManager.init.currScore > TileManager.init.bestScore)
-				TileManager.init.bestScore = TileManager.init.currScore;
+			TileManager.init.SetScore(int.Parse(tileMap.second.tileNumberText.text));
 			TileManager.init.SetTileData();
 			tileMap.Merge();
 		} else {

@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-[RequireComponent(typeof(SpriteOutline))]
 public class Tile : MonoBehaviour {
 	private readonly int UP = Animator.StringToHash("Up");
+	private readonly int ISFADE = Animator.StringToHash("IsFadeIn");
 	private readonly float MOVE_SPEED = 12f;
 
 	public GameLevel gameLevel;
@@ -26,15 +26,10 @@ public class Tile : MonoBehaviour {
 		}
 	}
 
-	private SpriteOutline spriteOutline;
 	private Animator animator;
 
 	private void Awake() {
 		animator = GetComponent<Animator>();
-	}
-
-	private void Start() {
-		spriteOutline = this.GetComponent<SpriteOutline>();
 	}
 
 	private void FixedUpdate() {
@@ -58,11 +53,11 @@ public class Tile : MonoBehaviour {
 	}
 
 	public void Selection() {
-		spriteOutline.isOutline = true;
+		animator.SetBool(ISFADE, true);
 	}
 
 	public void Release() {
-		spriteOutline.isOutline = false;
+		animator.SetBool(ISFADE, false);
 	}
 
 	public void RankUp() {

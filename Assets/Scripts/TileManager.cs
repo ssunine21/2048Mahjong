@@ -9,6 +9,8 @@ public class TileManager : MonoBehaviour {
 	private static readonly string TAG = "TileManager";
 	public static TileManager init;
 
+	public Animator gameOverPanel;
+	public Animator gameOverText;
 	public TextMeshProUGUI currScoreTMPro;
 	public TextMeshProUGUI bestScoreTMPro;
 
@@ -35,9 +37,12 @@ public class TileManager : MonoBehaviour {
 	private ScoreData tileData;
 	private GameLevel gameLevel;
 
+	private int backScore;
+
 	public int currScore {
 		get { return tileData.currScore; }
 		set {
+			if (value < 0) value = 0;
 			tileData.currScore = value;
 			currScoreTMPro.text = value.ToString();
 		}
@@ -46,6 +51,8 @@ public class TileManager : MonoBehaviour {
 	public int bestScore {
 		get { return tileData.bestScore; }
 		set {
+			if (value < 0) value = 0;
+
 			tileData.bestScore = value;
 			bestScoreTMPro.text = value.ToString();
 		}
@@ -90,8 +97,10 @@ public class TileManager : MonoBehaviour {
 		tileSprites.Add(tileSprites5);
 	}
 
-    private void Start() {
-        
+	public void ReStart() {
+		currScore = 0;
+		tileData.tileData.Clear();
+		SpawnTileGround(gameLevel);
     }
 
     public void SpawnTileGround(GameLevel level) {
@@ -129,31 +138,41 @@ public class TileManager : MonoBehaviour {
 	}
 
 	private GameObject SetTile() {
+		GameObject tileTemp;
 
 		switch (gameLevel) {
 			case GameLevel.three:
 				tileData = DataManager.init.gameData.threeTileData;
-				currScore = tileData.currScore;
-				bestScore = tileData.bestScore;
-				return tileThree;
+				tileTemp = tileThree;
+				break;
 			case GameLevel.four:
 				tileData = DataManager.init.gameData.fourTileData;
-				return tileFour;
+				tileTemp = tileFour;
+				break;
 			case GameLevel.five:
 				tileData = DataManager.init.gameData.fiveTileData;
-				return tileFive;
+				tileTemp = tileFive;
+				break;
 			case GameLevel.six:
 				tileData = DataManager.init.gameData.sixTileData;
-				return tileSix;
+				tileTemp = tileSix;
+				break;
 			case GameLevel.seven:
 				tileData = DataManager.init.gameData.sevenTileData;
-				return tileSeven;
+				tileTemp = tileSeven;
+				break;
 			case GameLevel.eight:
 				tileData = DataManager.init.gameData.eightTileData;
-				return tileEight;
+				tileTemp = tileEight;
+				break;
 			default:
 				throw new NullReferenceException($"{TAG} :: SetTile() error");
 		}
+
+		currScore = tileData.currScore;
+		bestScore = tileData.bestScore;
+
+		return tileTemp;
 	}
 
 	private void ClearTiles() {
@@ -162,10 +181,6 @@ public class TileManager : MonoBehaviour {
 			if (tile.name == tileParent.name) continue;
 			Destroy(tile.gameObject);
 		}
-	}
-
-	public void StartLevel(int num) {
-		SpawnTileGround((GameLevel)num);
 	}
 
 	public void SpwanTile(string name, Transform tr = null, int tileText = 0) {
@@ -217,8 +232,11 @@ public class TileManager : MonoBehaviour {
 				break;
 			}
 		}
-		if (isGameOver)
+		if (isGameOver) {
+			gameOverPanel.Play("FadeInPanel");
+			gameOverText.SetBool("FadeIn", true);
 			Debug.Log("GameOver");
+		}
 	}
 
 	public void ChangeThema() {
@@ -260,4 +278,27 @@ public class TileManager : MonoBehaviour {
 				throw new NullReferenceException($"{TAG} :: SetTile() error");
 		}
     }
+
+	public void SetScore(int score) {
+		backScore = score;
+
+		currScore += score;
+		if (currScore > bestScore)
+			bestScore = currScore;
+	}
+
+	public void GoBack() {
+		SpawnTileGround(gameLevel);
+		if(currScore == bestScore) {
+			bestScore -= backScore;
+        }
+		currScore -= backScore;
+
+		backScore = 0;
+	}
+
+	public void GoHome() {
+		SetTileData();
+		backScore = 0;
+	}
 }

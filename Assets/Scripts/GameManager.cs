@@ -33,12 +33,16 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void GoHome() {
-		TileManager.init.SetTileData();
+		TileManager.init.GoHome();
 		homeUI.SetActive(true);
 		gameUI.SetActive(false);
 	}
 
+	public void GoBack() {
+		TileManager.init.GoBack();
+	}
+
 	public void ReStart() {
-		TileManager.init.SpawnTileGround((GameLevel)(menuSelect.currSelectedNum + 3));
+		TileManager.init.ReStart();
 	}
 }

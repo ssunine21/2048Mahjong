@@ -44,3 +44,6 @@ TagManager:
   - name: object
     uniqueID: 3595547363
     locked: 0
+  - name: Panel
+    uniqueID: 3805512481
+    locked: 0
