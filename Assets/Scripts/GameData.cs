@@ -11,5 +11,7 @@ namespace DataInfo {
 		public ScoreData sixTileData = new ScoreData();
 		public ScoreData sevenTileData = new ScoreData();
 		public ScoreData eightTileData = new ScoreData();
+
+		public int themaIndex = 2;
 	}
 }

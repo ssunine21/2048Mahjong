@@ -45,6 +45,8 @@ public class Tile : MonoBehaviour {
 			this.transform.Translate((target - (new Vector2(transform.position.x, transform.position.y)))
 				* MOVE_SPEED * Time.deltaTime);
 
+			animator.Play("Destroy");
+
 			Vector3 targetVec3 = new Vector3(target.x, target.y);
 			if(transform.position == targetVec3) {
 				Destroy(this.gameObject);
@@ -70,6 +72,7 @@ public class Tile : MonoBehaviour {
 
 	public void ChangeTileImage(int nextNumber) {
 		int numOfPower = 0;
+		nextNumber >>= 1;
         while (true) {
 			nextNumber >>= 1;
 			if (nextNumber == 0) break;

@@ -54,8 +54,9 @@ public class GameSystem : MonoBehaviour {
 		int levelNum = (int)tileMap.first.gameLevel;
 		int firstNum = int.Parse(tileMap.first.name);
 		int secondNum = int.Parse(tileMap.second.name);
+		int nextTileText = int.Parse(tileMap.second.tileNumberText.text) * 2;
 
-		if(firstNum == secondNum) {
+		if (firstNum == secondNum) {
 			tileMap.Clear();
 			return;
 		}
@@ -68,9 +69,19 @@ public class GameSystem : MonoBehaviour {
 
 		if ((Mathf.Abs(firstNum - secondNum) == 1 || Mathf.Abs(firstNum - secondNum) == levelNum)
 			&& tileMap.first.tileNumberText.text.Equals(tileMap.second.tileNumberText.text)) {
-			TileManager.init.SetScore(int.Parse(tileMap.second.tileNumberText.text));
+
+			TileManager.init.SetScore(nextTileText);
 			TileManager.init.SetTileData();
 			tileMap.Merge();
+
+			if (nextTileText == 2048) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_2048_tile);
+			if (nextTileText == 4096) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_4096_tile);
+			if (nextTileText == 8192) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_8192_tile);
+			if (nextTileText == 16384) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_16384_tile);
+			if (nextTileText == 32768) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_32768_tile);
+			if (nextTileText == 65536) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_65536_tile);
+			if (nextTileText == 131072) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_131072_tile);
+
 		} else {
 			tileMap.SecondToFirst();
 		}

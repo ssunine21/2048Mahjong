@@ -38,6 +38,8 @@ public class GameManager : MonoBehaviour {
 		homeUI.SetActive(true);
 		gameUI.SetActive(false);
 		isGameOver = false;
+
+		AdsManager.init.ShowInterstitialAd();
 	}
 
 	public void GoBack() {
@@ -48,5 +50,17 @@ public class GameManager : MonoBehaviour {
 	public void ReStart() {
 		TileManager.init.ReStart();
 		isGameOver = false;
+
+		AdsManager.init.ShowInterstitialAd();
+	}
+
+	private void OnApplicationQuit() {
+		DataManager.init.Save();
+	}
+
+	private void OnApplicationPause(bool pause) {
+		if (pause) {
+			DataManager.init.Save();
+		}
 	}
 }

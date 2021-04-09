@@ -55,6 +55,7 @@ public class IAPManager : MonoBehaviour, IStoreListener {
 
 		if (HadPurchased(PREMIUM)) {
 			isPremium = true;
+			AdsManager.init.DestroyBannerAd();
 		}
 	}
 
@@ -69,6 +70,7 @@ public class IAPManager : MonoBehaviour, IStoreListener {
 		switch (purchaseEvent.purchasedProduct.definition.id) {
 			case PREMIUM:
 				isPremium = true;
+				AdsManager.init.DestroyBannerAd();
 				break;
 		}
 
@@ -91,7 +93,7 @@ public class IAPManager : MonoBehaviour, IStoreListener {
 			Debug.Log($"not productId {productId}");
 		}
 	}
-
+	
 /*	public void RestorePurchase() {
 		if (!isInit) return;
 		if(Application.platform == RuntimePlatform.IPhonePlayer || Application.platform == RuntimePlatform.OSXPlayer) {

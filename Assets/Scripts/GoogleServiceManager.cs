@@ -43,15 +43,13 @@ public class GoogleServiceManager : MonoBehaviour {
     }
 
     public void OnShowLeaderBoard() {
-        // 1000점을 등록
-        Social.ReportScore(1000, GPGSIds.leaderboard_3_x_3_score, (bool bSuccess) => {
-            if (bSuccess) {
-                Debug.Log("ReportLeaderBoard Success");
-            } else {
-                Debug.Log("ReportLeaderBoard Fall");
-            }
-        }
-        );
+        Social.ReportScore((long)DataManager.init.gameData.threeTileData.bestScore, GPGSIds.leaderboard_3_x_3_score, (bool obj) => AddHandler(obj));
+        Social.ReportScore((long)DataManager.init.gameData.fourTileData.bestScore, GPGSIds.leaderboard_4_x_4_score, (bool obj) => AddHandler(obj));
+        Social.ReportScore((long)DataManager.init.gameData.fiveTileData.bestScore, GPGSIds.leaderboard_5_x_5_score, (bool obj) => AddHandler(obj));
+        Social.ReportScore((long)DataManager.init.gameData.sixTileData.bestScore, GPGSIds.leaderboard_6_x_6_score, (bool obj) => AddHandler(obj));
+        Social.ReportScore((long)DataManager.init.gameData.sevenTileData.bestScore, GPGSIds.leaderboard_7_x_7_score, (bool obj) => AddHandler(obj));
+        Social.ReportScore((long)DataManager.init.gameData.eightTileData.bestScore, GPGSIds.leaderboard_8_x_8_score, (bool obj) => AddHandler(obj));
+
         Social.ShowLeaderboardUI();
     }
 
@@ -60,19 +58,14 @@ public class GoogleServiceManager : MonoBehaviour {
         Social.ShowAchievementsUI();
     }
 
+    private void AddHandler(bool isSuccess) {
+        if (!isSuccess) {
+            Debug.LogError("add fails");
+        }
+    }
+
     // 업적추가
-    //public void OnAddAchievement() {
-
-    //    Social.ReportProgress(GPGSIds.achievement_achievements1, 100.0f, (bool bSuccess) => {
-    //        if (bSuccess) {
-    //            Debug.Log("AddAchievement Success");
-    //            text.text = "AddAchievement Success";
-    //        } else {
-    //            Debug.Log("AddAchievement Fall");
-    //            text.text = "AddAchievement Fail";
-    //        }
-    //    }
-    //    );
-    //}
-
+    public void OnAddAchievement(string achievementName) {
+        Social.ReportProgress(achievementName, 100.0f, (bool obj) => AddHandler(obj));
+    }
 }

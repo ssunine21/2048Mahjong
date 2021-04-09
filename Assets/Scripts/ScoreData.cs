@@ -2,16 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreData : MonoBehaviour {
+
+[System.Serializable]
+public class ScoreData {
+
     public ArrayList tileData;
 
-    private int _currScore;
-    public int currScore {
+    private float _currScore;
+    public float currScore {
         get { return _currScore; }
         set { _currScore = value; }
     }
-    private int _bestScore;
-    public int bestScore {
+    private float _bestScore;
+    public float bestScore {
         get { return _bestScore; }
         set { _bestScore = value; }
     }

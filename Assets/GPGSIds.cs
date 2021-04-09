@@ -24,7 +24,30 @@
 
 public static class GPGSIds
 {
+        public const string achievement_1000000_points = "CgkImujK958PEAIQGA"; // <GPGSID>
+        public const string leaderboard_8_x_8_score = "CgkImujK958PEAIQBg"; // <GPGSID>
+        public const string achievement_10000_points = "CgkImujK958PEAIQDw"; // <GPGSID>
+        public const string achievement_50000_points = "CgkImujK958PEAIQEQ"; // <GPGSID>
+        public const string achievement_4096_tile = "CgkImujK958PEAIQCA"; // <GPGSID>
+        public const string achievement_100000_points = "CgkImujK958PEAIQEg"; // <GPGSID>
+        public const string achievement_200000_points = "CgkImujK958PEAIQEw"; // <GPGSID>
+        public const string leaderboard_6_x_6_score = "CgkImujK958PEAIQBA"; // <GPGSID>
+        public const string leaderboard_7_x_7_score = "CgkImujK958PEAIQBQ"; // <GPGSID>
+        public const string achievement_25000_points = "CgkImujK958PEAIQEA"; // <GPGSID>
+        public const string achievement_400000_points = "CgkImujK958PEAIQFQ"; // <GPGSID>
+        public const string achievement_5000_points = "CgkImujK958PEAIQDg"; // <GPGSID>
+        public const string leaderboard_5_x_5_score = "CgkImujK958PEAIQAw"; // <GPGSID>
+        public const string achievement_8192_tile = "CgkImujK958PEAIQCQ"; // <GPGSID>
+        public const string achievement_32768_tile = "CgkImujK958PEAIQCw"; // <GPGSID>
+        public const string achievement_600000_points = "CgkImujK958PEAIQFg"; // <GPGSID>
+        public const string achievement_800000_points = "CgkImujK958PEAIQFw"; // <GPGSID>
         public const string leaderboard_3_x_3_score = "CgkImujK958PEAIQAQ"; // <GPGSID>
+        public const string achievement_16384_tile = "CgkImujK958PEAIQCg"; // <GPGSID>
+        public const string achievement_300000_points = "CgkImujK958PEAIQFA"; // <GPGSID>
+        public const string achievement_131072_tile = "CgkImujK958PEAIQDQ"; // <GPGSID>
+        public const string achievement_65536_tile = "CgkImujK958PEAIQDA"; // <GPGSID>
+        public const string achievement_2048_tile = "CgkImujK958PEAIQBw"; // <GPGSID>
+        public const string leaderboard_4_x_4_score = "CgkImujK958PEAIQAg"; // <GPGSID>
 
 }
 

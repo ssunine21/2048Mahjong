@@ -38,7 +38,7 @@ public class TileManager : MonoBehaviour {
 
 	private int backScore;
 
-	public int currScore {
+	public float currScore {
 		get { return tileData.currScore; }
 		set {
 			if (value < 0) value = 0;
@@ -47,7 +47,7 @@ public class TileManager : MonoBehaviour {
 		}
 	}
 
-	public int bestScore {
+	public float bestScore {
 		get { return tileData.bestScore; }
 		set {
 			if (value < 0) value = 0;
@@ -71,6 +71,8 @@ public class TileManager : MonoBehaviour {
 				_themaIndex = 0;
 			else
 				_themaIndex = value;
+
+			DataManager.init.gameData.themaIndex = _themaIndex;
 		}
 	}
 
@@ -246,7 +248,12 @@ public class TileManager : MonoBehaviour {
 	public void ChangeThema() {
 		++themaIndex;
 		background.sprite = backgroundImages[themaIndex];
-    }
+	}
+
+	public void SetThema(int index) {
+		themaIndex = index;
+		background.sprite = backgroundImages[themaIndex];
+	}
 
 	public Sprite[] GetTileThema() {
 		Sprite[] temp = (Sprite[])tileSprites[themaIndex];
@@ -287,8 +294,21 @@ public class TileManager : MonoBehaviour {
 		backScore = score;
 
 		currScore += score;
-		if (currScore > bestScore)
+		if (currScore > bestScore) {
 			bestScore = currScore;
+
+			     if (bestScore >= 1000000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_1000000_points);
+			else if (bestScore >= 800000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_800000_points);
+			else if (bestScore >= 600000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_600000_points);
+			else if (bestScore >= 400000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_400000_points);
+			else if (bestScore >= 300000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_300000_points);
+			else if (bestScore >= 200000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_200000_points);
+			else if (bestScore >= 100000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_100000_points);
+			else if (bestScore >= 50000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_50000_points);
+			else if (bestScore >= 25000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_25000_points);
+			else if (bestScore >= 10000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_10000_points);
+			else if (bestScore >= 5000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_5000_points);
+		}
 	}
 
 	public void GoBack() {
