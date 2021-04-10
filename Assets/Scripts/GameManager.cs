@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject homeUI;
 	public GameObject gameUI;
+	public GameObject howToUI;
+	public GameObject UIPanel;
+
 	public bool isGameOver;
 
 	private MenuSelect menuSelect;
@@ -25,6 +28,21 @@ public class GameManager : MonoBehaviour {
 		DontDestroyOnLoad(this.gameObject);
 
 		menuSelect = FindObjectOfType<MenuSelect>();
+	}
+
+	private void Update() {
+		
+		#if UNITY_ANDROID 
+		if (Input.GetKeyDown(KeyCode.Escape)) {
+			if (howToUI.activeSelf) {
+				CloseHowToUI();
+			} else if (gameUI.activeSelf) {
+				GoHome();
+			} else {
+				Application.Quit();
+			}
+		} 
+		#endif
 	}
 
 	public void GameStart() {
@@ -62,5 +80,15 @@ public class GameManager : MonoBehaviour {
 		if (pause) {
 			DataManager.init.Save();
 		}
+	}
+
+	public void OpenHowToUI() {
+		howToUI.SetActive(true);
+		UIPanel.SetActive(false);
+	}
+
+	public void CloseHowToUI() {
+		howToUI.SetActive(false);
+		UIPanel.SetActive(true);
 	}
 }

@@ -3201,12 +3201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameData:
-    threeTileData: {fileID: 0}
-    fourTileData: {fileID: 0}
-    fiveTileData: {fileID: 0}
-    sixTileData: {fileID: 0}
-    sevenTileData: {fileID: 0}
-    eightTileData: {fileID: 0}
+    themaIndex: 2
 --- !u!4 &666208624
 Transform:
   m_ObjectHideFlags: 0
@@ -4883,7 +4878,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 15, y: -25}
   m_SizeDelta: {x: 1080, y: 1918}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1352624792
@@ -4902,7 +4897,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352624790}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 16b8ca90290114726b2b306c21ff8411, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: b09401f8f6ccf411abde9990eb66aa49, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -6436,22 +6431,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 876289198}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1352624790}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1947086692}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: CloseHowToUI
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6513,6 +6496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   homeUI: {fileID: 876289198}
   gameUI: {fileID: 1775113969}
+  howToUI: {fileID: 1352624790}
+  UIPanel: {fileID: 876289198}
   isGameOver: 0
 --- !u!1 &1953963013
 GameObject:
@@ -6604,22 +6589,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1352624790}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 876289198}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1947086692}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: OpenHowToUI
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
