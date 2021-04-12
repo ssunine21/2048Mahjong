@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R3CMB0FDT6L",
         "name": "com.bognstudio.mahjong2048",
-        "processId": 31530,
+        "processId": 9519,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,12 +18,36 @@
             "deviceId": "R3CMB0FDT6L",
             "name": "com.bognstudio.mahjong2048",
             "processId": 31252,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R3CMB0FDT6L",
             "name": "com.bognstudio.mahjong2048",
             "processId": 31530,
+            "exited": true
+        },
+        {
+            "deviceId": "R3CMB0FDT6L",
+            "name": "com.sec.android.app.launcher",
+            "processId": 7185,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CMB0FDT6L",
+            "name": "com.bognstudio.mahjong2048",
+            "processId": 22448,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CMB0FDT6L",
+            "name": "com.bognstudio.mahjong2048",
+            "processId": 24612,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CMB0FDT6L",
+            "name": "com.bognstudio.mahjong2048",
+            "processId": 9519,
             "exited": false
         }
     ],

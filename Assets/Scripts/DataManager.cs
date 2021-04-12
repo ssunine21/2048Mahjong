@@ -37,11 +37,17 @@ public class DataManager : MonoBehaviour {
 
 		gameData = (DataInfo.GameData)binaryFormatter.Deserialize(file);
 		TileManager.init.SetThema(gameData.themaIndex);
+
+		file.Close();
 	}
 
 	public void Save() {
 		BinaryFormatter binaryFormatter = new BinaryFormatter();
-		FileStream file = File.Create(dataPath);
+		FileStream file;
+		if (File.Exists(dataPath))
+			file = File.OpenWrite(dataPath);
+		else
+			file = File.Create(dataPath);
 
 		binaryFormatter.Serialize(file, gameData);
 		file.Close();
