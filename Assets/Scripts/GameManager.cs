@@ -57,6 +57,7 @@ public class GameManager : MonoBehaviour {
 		gameUI.SetActive(false);
 		isGameOver = false;
 
+		GoogleServiceManager.init.SubmitScoreToLeaderboards();
 		AdsManager.init.ShowInterstitialAd();
 	}
 

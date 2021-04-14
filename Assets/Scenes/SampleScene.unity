@@ -4114,6 +4114,7 @@ GameObject:
   - component: {fileID: 1123473794}
   - component: {fileID: 1123473793}
   - component: {fileID: 1123473795}
+  - component: {fileID: 1123473796}
   m_Layer: 5
   m_Name: leaderboardBtn
   m_TagString: Untagged
@@ -4219,19 +4220,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1123473793}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1620106094}
-        m_TargetAssemblyTypeName: GoogleServiceManager, Assembly-CSharp
-        m_MethodName: OnShowLeaderBoard
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &1123473796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123473791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e35abd56f8827428f1d3b9b8fe9188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1190190495
 GameObject:
   m_ObjectHideFlags: 0
@@ -6170,19 +6171,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1844667042}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1620106094}
-        m_TargetAssemblyTypeName: GoogleServiceManager, Assembly-CSharp
-        m_MethodName: OnLogin
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1850490016
 GameObject:
   m_ObjectHideFlags: 0
@@ -6789,6 +6778,7 @@ GameObject:
   - component: {fileID: 2107201560}
   - component: {fileID: 2107201559}
   - component: {fileID: 2107201561}
+  - component: {fileID: 2107201562}
   m_Layer: 5
   m_Name: achievementsBtn
   m_TagString: Untagged
@@ -6813,7 +6803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 194, y: -357.00003}
+  m_AnchoredPosition: {x: 195, y: -357.00003}
   m_SizeDelta: {x: 175, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107201559
@@ -6894,19 +6884,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2107201559}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1620106094}
-        m_TargetAssemblyTypeName: GoogleServiceManager, Assembly-CSharp
-        m_MethodName: OnShowAchievement
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &2107201562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107201557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb9a75b2d29b3f4e810e1f77ec68974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2128488438
 GameObject:
   m_ObjectHideFlags: 0

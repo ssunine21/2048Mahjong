@@ -8,8 +8,8 @@ public class AdsManager : MonoBehaviour {
     private static readonly string AND_BANNER_ID = "ca-app-pub-7832687788012663/7385592239";
     private static readonly string AND_INTERSTITIAL_ID = "ca-app-pub-7832687788012663/5661107718";
 
-    private static readonly string iOS_BANNER_ID = "ca-app-pub-7832687788012663/6504877560";
-    private static readonly string iOS_INTERSTITIAL_ID = "ca-app-pub-7832687788012663/1679720432";
+    private static readonly string iOS_BANNER_ID = "ca-app-pub-7832687788012663/8255373669";
+    private static readonly string iOS_INTERSTITIAL_ID = "ca-app-pub-7832687788012663/2343382067";
 
     public static AdsManager init = null;
 

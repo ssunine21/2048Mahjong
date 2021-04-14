@@ -297,17 +297,17 @@ public class TileManager : MonoBehaviour {
 		if (currScore > bestScore) {
 			bestScore = currScore;
 
-			     if (bestScore >= 1000000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_1000000_points);
-			else if (bestScore >= 800000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_800000_points);
-			else if (bestScore >= 600000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_600000_points);
-			else if (bestScore >= 400000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_400000_points);
-			else if (bestScore >= 300000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_300000_points);
-			else if (bestScore >= 200000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_200000_points);
-			else if (bestScore >= 100000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_100000_points);
-			else if (bestScore >= 50000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_50000_points);
-			else if (bestScore >= 25000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_25000_points);
-			else if (bestScore >= 10000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_10000_points);
-			else if (bestScore >= 5000) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_5000_points);
+			     if (bestScore >= 1000000) CloudOnce.Achievements.Points1000000.Unlock();
+			else if (bestScore >= 800000) CloudOnce.Achievements.Points800000.Unlock();
+			else if (bestScore >= 600000) CloudOnce.Achievements.Points600000.Unlock();
+			else if (bestScore >= 400000) CloudOnce.Achievements.Points400000.Unlock();
+			else if (bestScore >= 300000) CloudOnce.Achievements.Points300000.Unlock();
+			else if (bestScore >= 200000) CloudOnce.Achievements.Points200000.Unlock();
+			else if (bestScore >= 100000) CloudOnce.Achievements.Points100000.Unlock();
+			else if (bestScore >= 50000) CloudOnce.Achievements.Points50000.Unlock();
+			else if (bestScore >= 25000) CloudOnce.Achievements.Points25000.Unlock();
+			else if (bestScore >= 10000) CloudOnce.Achievements.Points10000.Unlock();
+			else if (bestScore >= 5000) CloudOnce.Achievements.Points5000.Unlock();
 		}
 	}
 

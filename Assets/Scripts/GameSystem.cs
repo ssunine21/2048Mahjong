@@ -74,13 +74,13 @@ public class GameSystem : MonoBehaviour {
 			TileManager.init.SetTileData();
 			tileMap.Merge();
 
-			if (nextTileText == 2048) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_2048_tile);
-			if (nextTileText == 4096) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_4096_tile);
-			if (nextTileText == 8192) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_8192_tile);
-			if (nextTileText == 16384) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_16384_tile);
-			if (nextTileText == 32768) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_32768_tile);
-			if (nextTileText == 65536) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_65536_tile);
-			if (nextTileText == 131072) GoogleServiceManager.init.OnAddAchievement(GPGSIds.achievement_131072_tile);
+			if (nextTileText == 2048) CloudOnce.Achievements.Tile2048.Unlock();
+			if (nextTileText == 4096) CloudOnce.Achievements.Tile4096.Unlock();
+			if (nextTileText == 8192) CloudOnce.Achievements.Tile8192.Unlock();
+			if (nextTileText == 16384) CloudOnce.Achievements.Tile16384.Unlock();
+			if (nextTileText == 32768) CloudOnce.Achievements.Tile32768.Unlock();
+			if (nextTileText == 65536) CloudOnce.Achievements.Tile65536.Unlock();
+			if (nextTileText == 131072) CloudOnce.Achievements.Tile131072.Unlock();
 
 		} else {
 			tileMap.SecondToFirst();

@@ -3,29 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "R3CMB0FDT6L",
         "name": "com.bognstudio.mahjong2048",
-        "processId": 9519,
+        "processId": 11284,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "R3CMB0FDT6L",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 20667,
-            "exited": true
-        },
-        {
-            "deviceId": "R3CMB0FDT6L",
-            "name": "com.bognstudio.mahjong2048",
-            "processId": 31252,
-            "exited": true
-        },
-        {
-            "deviceId": "R3CMB0FDT6L",
-            "name": "com.bognstudio.mahjong2048",
-            "processId": 31530,
-            "exited": true
-        },
         {
             "deviceId": "R3CMB0FDT6L",
             "name": "com.sec.android.app.launcher",
@@ -35,19 +17,37 @@
         {
             "deviceId": "R3CMB0FDT6L",
             "name": "com.bognstudio.mahjong2048",
-            "processId": 22448,
-            "exited": false
-        },
-        {
-            "deviceId": "R3CMB0FDT6L",
-            "name": "com.bognstudio.mahjong2048",
-            "processId": 24612,
-            "exited": false
-        },
-        {
-            "deviceId": "R3CMB0FDT6L",
-            "name": "com.bognstudio.mahjong2048",
             "processId": 9519,
+            "exited": true
+        },
+        {
+            "deviceId": "R3CMB0FDT6L",
+            "name": "com.bognstudio.mahjong2048",
+            "processId": 17301,
+            "exited": true
+        },
+        {
+            "deviceId": "R3CMB0FDT6L",
+            "name": "com.bognstudio.mahjong2048",
+            "processId": 17511,
+            "exited": true
+        },
+        {
+            "deviceId": "R3CMB0FDT6L",
+            "name": "com.bognstudio.mahjong2048",
+            "processId": 30349,
+            "exited": true
+        },
+        {
+            "deviceId": "R3CMB0FDT6L",
+            "name": "com.bognstudio.mahjong2048",
+            "processId": 10984,
+            "exited": true
+        },
+        {
+            "deviceId": "R3CMB0FDT6L",
+            "name": "com.bognstudio.mahjong2048",
+            "processId": 11284,
             "exited": false
         }
     ],
